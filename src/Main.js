@@ -14,8 +14,6 @@ export default class Main extends Component {
     this.searchText.current.focus();
   }
   handleToggle = () => {
-    // let el =findDOMNode(this.refs.toggleArea);
-    // $(el).slideToggle();
     $(this.toggleArea.current).slideToggle();
   };
   render() {
